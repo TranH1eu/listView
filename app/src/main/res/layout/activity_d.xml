@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="216dp"
+
+            app:srcCompat="@drawable/sapa"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="SaPa"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="--Nơi gặp gỡ đất trời--"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text=" Sa Pa là một huyện vùng cao của tỉnh Lào Cai, nằm ở phía Tây Bắc của Việt Nam, thị trấn Sa Pa ở độ cao 1.600 mét so với mực nước biển, cách thành phố Lào Cai 38 km và 376 km tính từ Hà Nội. Ngoài con đường chính từ thành phố Lào Cai, để tới SaPa còn một tuyến giao thông khác, quốc lộ 4D nối từ xã Bình Lư, Lai Châu. Sapa với diện tích khoảng 678,6 km2 là nơi sinh sống chủ yếu của các dân tộc Mông, Dao, Tày, giáy, Xá Phó, Kinh, Hoa.  Sapa - một vùng đất khiêm nhường, lặng lẽ nhưng ẩn chứa bao điều kỳ diệu của cảnh sắc thiên nhiên. Phong cảnh thiên nhiên của Sa Pa được kết hợp với sức sáng tạo của con người cùng với địa hình của núi đồi, màu xanh của rừng, như bức tranh có sự sắp xếp theo một bố cục hài hoà tạo nên một vùng có nhiều cảnh sắc thơ mộng hấp dẫn.
+
+Chìm trong làn mây bồng bềnh thị trấn Sa Pa như một thành phố trong sương huyền ảo, làm cho du khách cữ ngỡ như mình đang lạc trong chốn thần tiên. Nơi đây, có thứ tài nguyên vô giá đó là khí hậu trong lành mát mẻ, mang nhiều sắc thái đa dạng."
+            android:textSize="17dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

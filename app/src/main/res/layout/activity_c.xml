@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="216dp"
+
+            app:srcCompat="@drawable/dalat"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Đà Lạt"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="--Thành phố mộng mơ"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="Đà Lạt – Thiên đường du lịch với vẻ đẹp tuyệt vời và đa dạng văn hóa dân tộc Tây Nguyên. Hòa mình vào không khí du lịch Đà Lạt, du khách có thể thưởng thức các chương trình âm nhạc mang nét độc đáo văn hóa dân tộc, như ca múa nhạc và trình diễn các nhạc cụ dân tộc độc đáo trong các lễ hội.
+
+Bên cạnh đó, Festival hoa diễn ra 2 năm một lần để tôn vinh vẻ đẹp hoa và các thương hiệu nổi tiếng của Đà Lạt, từ đó quảng bá vẻ đẹp của thành phố này đến mọi người. Ngoài ra, nơi đây còn nổi tiếng với kiến trúc độc đáo của những ngôi biệt thự cổ từ thời Pháp và tòa nhà ấn tượng.
+
+Đà Lạt là một thành phố thân thiện, dễ gần và mến khách, điều này làm cho du khách yêu thích đến thăm đất nước này. Sống trong một khung cảnh tuyệt đẹp, với không khí trong lành và mát mẻ, người dân ở đây tỏ ra thông thái, hiền hoà và chân thật.
+
+Lối sống của người dân Đà Lạt kết hợp một cách hài hòa giữa nét văn hóa truyền thống và phong cách phóng khoáng của phương Tây. Giọng nói của người dân nơi đây rất trong trẻo, nhẹ nhàng và sưởi ấm lòng người.  "
+            android:textSize="17dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

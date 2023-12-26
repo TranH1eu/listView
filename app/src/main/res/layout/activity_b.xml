@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="216dp"
+
+            app:srcCompat="@drawable/danang"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Đà Nẵng"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="--Thành phố của những cây cầu--"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text=" Nằm ở vùng Nam Trung Bộ, Đà Nẵng có cả núi, đồng bằng và biển. Các điểm tham quan du lịch nổi tiếng khi du lịch Đà Nẵng bao gồm khu du lịch Bà Nà, bãi biển Mỹ Khê, và khu vui chơi giải trí trong nhà Fantasy Park lớn nhất châu Á. Đà Nẵng còn có nhiều thắng cảnh đẹp mê hồn như đèo Hải Vân, rừng nguyên sinh ở bán đảo Sơn Trà và Ngũ Hành Sơn. Đặc biệt, Đà Nẵng được bao quanh bởi 3 di sản văn hóa thế giới là Huế, Hội An và Mỹ Sơn, và xa hơn chút nữa là Vườn Quốc Gia Phong Nha – Kẻ Bàng. Hàng năm, Đà Nẵng tổ chức Lễ hội pháo hoa thu hút rất nhiều du khách muôn phương đến tham dự.Bất cứ phương tiện nào cũng có thể đưa bạn đến được Đà Nẵng. Bên cạnh những lợi thế về cảnh quan, sự thuận tiện di chuyển cũng là một ưu thế của thành phố này. Bạn có thể đi máy bay, xe lửa, xe khách, xe máy,…
+
+Xe lửa: Đi xe lửa từ Hà Nội hoặc Sài Gòn đến Đà Nẵng mất khoảng 14 – 20 tiếng tùy thuộc vào chuyến tàu chậm hay nhanh. Đi từ Sài Gòn thì lâu hơn vì khoảng cách xa hơn.
+
+Giá vé từ Hà Nội đi Đà Nẵng: tùy thuộc vào các loại ghế, có các mức giá khác nhau."
+            android:textSize="17dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

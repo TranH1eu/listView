@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="400dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="216dp"
+
+            app:srcCompat="@drawable/maldives"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Maldives"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="--Thiên đường du lịch--"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text=" Cộng hòa Maldives chỉ có tổng diện tích 298km2, là một trong 10 quốc gia nhỏ nhất thế giới. Hầu hết các đảo ở đây là những dải đất mỏng manh, thoắt ẩn thoắt hiện giữa đại dương, chỉ có gần 200 đảo có diện tích tương đối rộng có cư dân cư trú.
+
+Mặc dù là quốc gia nhỏ bé nhất châu Á nhưng ngày nay, Maldives đã được cả thế giới biết đến với danh xưng thiên đường du lịch, mỗi năm đón 1,7 triệu du khách. Nhờ vào phát triển du lịch, Maldives đã có một sự chuyển mình thần kỳ, từ quốc đảo nhỏ bé, biệt lập và kinh tế kém phát triển trở thành một trong 26 thiên đường biển thu hút du khách bậc nhất thế giới. Thu nhập về du lịch hiện chiếm tới hơn 30% tổng sản phẩm quốc nội (GDP) của Maldives.Hình ảnh quen thuộc về Maldives là những rặng dừa ngút ngàn ôm lấy bãi cát trắng mịn, trời xanh thẳm, mặt nước lăn tăn sóng nhỏ nhưng vẫn trong veo đến độ có thể nhìn thấu tận đáy, những khu nghỉ dưỡng sang trọng nằm nổi trên mặt biển... Ở Maldives, du khách có thể tìm thấy mọi hoạt động liên quan tới du lịch biển, từ trải nghiệm đơn giản như tắm biển, tìm hiểu hoạt động đánh bắt truyền thống của ngư dân trên đảo, câu cá ngắm hoàng hôn cùng ngư dân, lặn biển ngắm san hô, bơi cùng cá mập đã được huấn luyện, đến những trải nghiệm xa xỉ như bay thủy phi cơ ngắm nhìn toàn bộ quần đảo từ trên cao, thưởng thức bữa tối ở các nhà hàng được xây ngầm dưới lòng đại dương..."
+            android:textSize="17dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>
